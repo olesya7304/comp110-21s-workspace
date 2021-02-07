@@ -16,15 +16,19 @@ from random import randint
 
 print("Your fortune cookie says...")
 
-int = randint(1,1000)
+number: int = randint(1,1000)
 
-if int <=100:
-    print("A beautiful, smart, and loving person will be coming into your life.")
+if number <300:
+    if number <100:
+        print("A dubious friend may be an enemy in camouflage.")
+    else: 
+        print("A friend asks only for your time not your money.")
 else:
-    if int <=500:
+    if number <=800:
         print("Your life will be happy and peaceful.")
     else:
-        print("Soon life will become more interesting.")
+        print("A fresh start will put you on your way.")
+
 
 print("Now, go spread positive vibes!")
 
